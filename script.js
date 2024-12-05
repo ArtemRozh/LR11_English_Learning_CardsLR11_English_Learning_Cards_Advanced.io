@@ -258,13 +258,13 @@ function radioFunc(url, difficulty1, difficulty2, difficulty3){
 }
 
 $("#easy").on("change", ()=> {
-    radioFunc("url(../IMG/LR_12.1_BG.jpg)", currentEasyWords, easyGuessed, easyGuesses);
+    radioFunc("url(IMG/LR_12.1_BG.jpg)", currentEasyWords, easyGuessed, easyGuesses);
 });
 
 $("#medium").on("change", ()=> {
-    radioFunc("url(../IMG/LR_12.2_BG.jpg)", currentMediumWords, mediumGuessed, mediumGuesses);
+    radioFunc("url(IMG/LR_12.2_BG.jpg)", currentMediumWords, mediumGuessed, mediumGuesses);
 });
 
 $("#hard").on("change", ()=> {
-    radioFunc("url(../IMG/LR_12.3_BG.jpg)", currentHardwords, hardGuessed, hardGuesses);
+    radioFunc("url(IMG/LR_12.3_BG.jpg)", currentHardwords, hardGuessed, hardGuesses);
 });
